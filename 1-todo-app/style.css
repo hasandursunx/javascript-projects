@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#alert {
+    width: 300px;
+    background: #ff6a00d7;
+    text-align: center;
+    padding: 7px;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#input {
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#addButton {
+    width: 75px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#todos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#liStyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#liStyle div>button:first-child {
+    margin-right: 10px;
+}
+
+#liStyle p,
+input {
+    width: 270px;
+    max-width: 270px;
+}
+
+#liStyle button {
+    cursor: pointer;
+}
+
+.complete {
+    text-decoration: line-through;
+}
